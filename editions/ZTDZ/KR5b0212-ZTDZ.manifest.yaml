@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0212/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0212/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃籙救苦十齋轉經儀
+  date: '2015-08-29 00:14:19.064737'
+  source:
+    repository: kanripo
+    path: KR5b0212
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0212_000-ZTDZ.yaml, hash: 'sha256:abf2b0d41c8f9f63cb9b3d66ceb16dc81c0fecf7f44d42870d52de5af13ed7cb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0212_000-ZTDZ.markers.yaml, hash: 'sha256:4b7f99c58d5ae07e74acdbc1a658546b61c853e7d013ecac9e2449d2a2da4818'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0212_SJB_000-090730a
+    span:
+    - body
+    - 0
+    - 5035
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:61e7da5f10a046c44008f5cb93ed15c71448279248b333bb777f5acbd5e6b02b
